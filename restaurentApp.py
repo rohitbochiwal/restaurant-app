@@ -171,7 +171,7 @@ class Order:
         print("\nFood Menu:")
         print("ID   Name           Price")
         for item_id, item_info in self.menu_items1.items():
-            print(f"{item_id}    {item_info['name']}       AUD {item_info['price']}")
+            print(f"{item_id}    {item_info['name']}       INR {item_info['price']}")
         
         # Initialize an empty list to store selected items
         while True:
@@ -190,7 +190,7 @@ class Order:
         print("\nDrinks Menu:")
         print("ID   Name           Price")
         for item_id, item_info in self.menu_items2.items():
-            print(f"{item_id}    {item_info['name']}       AUD {item_info['price']}")
+            print(f"{item_id}    {item_info['name']}       INR {item_info['price']}")
         
         while True:
             choice = input("Enter your choice (ID) or 4 to proceed to Checkout: ")
@@ -258,7 +258,7 @@ class Order:
         print("\nFood Menu:")
         print("ID   Name           Price")
         for item_id, item_info in self.menu_items1.items():
-            print(f"{item_id}    {item_info['name']}       AUD {item_info['price']}")
+            print(f"{item_id}    {item_info['name']}       INR {item_info['price']}")
         
         # Initialize an empty list to store selected items
         while True:
@@ -340,7 +340,7 @@ class Order:
         print("\nFood Menu:")
         print("ID   Name           Price")
         for item_id, item_info in self.menu_items1.items():
-            print(f"{item_id}    {item_info['name']}       AUD {item_info['price']}")
+            print(f"{item_id}    {item_info['name']}       INR {item_info['price']}")
         
         while True:
             choice = input("Enter your choice (ID) or 7 to proceed to checkout: ")
